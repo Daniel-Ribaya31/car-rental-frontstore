@@ -167,7 +167,7 @@ export default function FAQ() {
                     <div className="flex justify-center mb-8">
                         <div className="w-[20%] h-1 bg-[#F28C28]"></div>
                     </div>
-                    <p className="text-gray-600 mb-6 max-w-xl mx-auto">
+                    <p className="text-lg sm:text-base text-gray-600 mb-6 max-w-4xl mx-auto">
                         If you have any specific questions, concerns, or special requests regarding your rental, our Customer Support team is here to assist you. Whether it's about vehicle availability, rental terms, insurance coverage, or anything else, don’t hesitate to get in touch. We aim to provide prompt and helpful responses to make your Toyota RentαCar experience smooth and enjoyable.
                         <br /><br />
                         For faster assistance, please have your booking reference or vehicle details ready when you contact us.
