@@ -174,10 +174,10 @@ export default function FAQ() {
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
                         <div className="inline-block bg-[#F28C28] text-white font-semibold px-8 py-3 rounded-full shadow-lg">
-                            Call Us: +63 917 123 4567
+                            Call Us: (+63) 915 592 5202 or (+63) 917 149 0139
                         </div>
                         <div className="inline-block bg-gray-800 text-white font-semibold px-8 py-3 rounded-full shadow-lg">
-                            Email: support@toyotarentacar.com
+                            Email: rentacar@toyota-mobilitysolutions.ph
                         </div>
                     </div>
                 </section>              
