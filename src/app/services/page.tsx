@@ -339,8 +339,8 @@
 
                                 <div className="mt-8">
                                     <a
-                                        href="/booking/form?location=manila"
-                                        className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-semibold transition"
+                                        href="/"
+                                        className="bg-[#F28C28] hover:bg-orange-500 text-white px-8 py-3 rounded-full font-semibold transition"
                                     >
                                         Rent a Toyota Today
                                     </a>
