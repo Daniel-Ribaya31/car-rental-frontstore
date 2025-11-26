@@ -154,7 +154,7 @@ export default function Navbar() {
                 }`}
               >
                 <li>
-                  <Link href="#" className="block px-4 py-2 hover:bg-red-50">
+                  <Link href="/about/companyInfo" className="block px-4 py-2 hover:bg-red-50">
                     Company Info
                   </Link>
                 </li>
@@ -303,7 +303,7 @@ export default function Navbar() {
                   : "max-h-0 opacity-0 invisible overflow-hidden"
               }`}
             >
-              <li><Link href="#" className="block hover:text-[#F28C28]">Company Info</Link></li>
+              <li><Link href="/about/companyInfo" className="block hover:text-[#F28C28]">Company Info</Link></li>
               <li><Link href="/about/faq" className="block hover:text-[#F28C28]">FAQ</Link></li>
               <li><Link href="https://toyota-mobilitysolutions.ph/careers" className="block hover:text-[#F28C28]">Careers</Link></li>
             </ul>
