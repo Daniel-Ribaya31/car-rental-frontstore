@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+@layer base {
+  html {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6, nav, .font-display {
+    font-family: 'Montserrat', sans-serif;
+  }
 }
 
 @theme inline {
@@ -23,4 +33,32 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (width: 1024px) {
+  /* Desktop nav text */
+  .nav-desktop-sm {
+    font-size: 0.75rem;
+  }
+
+  /* Desktop nav button spacing */
+  .nav-desktop-gap {
+    gap: 0.5rem; /* tweak as needed */
+  }
+
+  /* Logo size (text-based) */
+  .logo-sm {
+    font-size: 1rem; /* default was 2xl (~1.5rem). Adjust as needed */
+  }
+
+  /* Login/Register spacing & text size */
+  .auth-sm {
+    font-size: 0.75rem; /* shrink slightly */
+  }
+
+  /* Register button (padding + font) */
+  .auth-register-sm {
+    padding: 0.4rem 0.9rem;  /* slightly smaller */
+    font-size: 0.75rem;
+  }
 }
