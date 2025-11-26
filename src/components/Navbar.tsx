@@ -183,7 +183,7 @@ export default function Navbar() {
               Login
             </Link>
             <Link
-              href="#"
+              href="/register"
               className="bg-[#F28C28] text-white px-4 py-2 rounded-lg hover:bg-orange-500 transition auth-register-sm"
             >
               Register
@@ -319,7 +319,7 @@ export default function Navbar() {
             Login
           </Link>
           <Link
-            href="#"
+            href="/register"
             className="bg-[#F28C28] text-white text-sm px-4 py-2 rounded-lg hover:bg-orange-500 transition"
           >
             Register
