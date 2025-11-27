@@ -25,6 +25,7 @@ export default function RegisterPage() {
       className="min-h-screen flex items-center justify-center px-4 py-16 bg-cover bg-center"
       style={{ backgroundImage: "url('/images/toyota-background.jpg')" }}
     >
+      <div className="absolute inset-0 bg-black/50"></div>
       <div className="w-full max-w-md bg-white/90 backdrop-blur-md shadow-lg rounded-2xl p-8 border border-gray-200">
 
         {/* Title */}

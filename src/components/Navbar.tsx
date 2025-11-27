@@ -175,7 +175,7 @@ export default function Navbar() {
           {/* Right Section */}
           <div className="hidden lg:flex items-center space-x-4 auth-sm">
             <Link
-              href="#"
+              href="/login"
               className={`transition-colors duration-300 auth-sm ${
                 scrolled ? "text-gray-700 hover:text-[#F28C28]" : "text-white hover:text-red-400"
               }`}
@@ -313,7 +313,7 @@ export default function Navbar() {
         {/* Right-aligned Login/Register */}
         <div className="flex justify-end items-center px-6 pb-4 space-x-3">
           <Link
-            href="#"
+            href="/login"
             className="text-sm font-medium hover:text-[#F28C28] transition"
           >
             Login
